@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`take a snapshot should take a snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <input
+      name="search"
+      placeholder="Search"
+      type="text"
+      value=""
+    />
+    <button
+      data-testid="search-button"
+    >
+      Search
+    </button>
+  </div>
+</DocumentFragment>
+`;

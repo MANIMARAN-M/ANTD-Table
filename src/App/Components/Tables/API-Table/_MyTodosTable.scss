@@ -1,0 +1,15 @@
+.MyTodosTable {
+  //   max-width: 800px;
+  margin: 30px auto;
+  padding: 0 10px;
+  margin-top: 30px;
+  .TableSearchBox {
+    margin-bottom: 20px;
+  }
+  .sortTable {
+    margin-bottom: 20px;
+    small {
+      font-size: 18px;
+    }
+  }
+}
