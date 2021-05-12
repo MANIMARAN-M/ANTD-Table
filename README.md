@@ -1,3 +1,3 @@
 # ANTD-Table
 
-[demo](https://antd-rtl.netlify.app/mytable)
+[demo](https://antd-rtl.netlify.app)
