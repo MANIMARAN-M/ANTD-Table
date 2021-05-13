@@ -11,7 +11,6 @@ import {
   Checkbox,
   Row,
   Modal,
-  Space,
   Col,
 } from "antd";
 import { UploadOutlined, InboxOutlined } from "@ant-design/icons";
@@ -48,7 +47,7 @@ const FromDesign = () => {
   };
 
   return (
-    <div class="FormMainSection">
+    <div className="FormMainSection">
       <Form
         name="validate_other"
         {...formItemLayout}

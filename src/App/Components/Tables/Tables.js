@@ -2,8 +2,6 @@ import React from "react";
 import TableOne from "./TableOne";
 import TableTwo from "./TableTwo";
 import { Divider } from "antd";
-import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
-import Sample from "./Sample";
 // import FromDesign from "../FormDesign/FromDesign";
 
 const Tables = () => {

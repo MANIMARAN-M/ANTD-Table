@@ -13,3 +13,54 @@
     }
   }
 }
+
+.AddTodoFrom {
+  padding: 20px;
+}
+.EditTabledot {
+  position: relative;
+  .EditTabledots {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e9e9e9;
+    width: 30px;
+    padding: 0 5px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    div {
+      height: 3px;
+      width: 3px;
+      border-radius: 50%;
+      background: rgb(112, 112, 112);
+    }
+    &:hover {
+      background-color: #f3f3f3;
+    }
+    &:active {
+      background-color: #dbdbdb;
+    }
+  }
+  .EditTabledotPopUp {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba($color: #000000, $alpha: 0.1);
+    width: 80px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    div {
+      padding: 5px;
+      &:last-child {
+        background: red;
+      }
+      &:hover {
+        background: #fafafa;
+      }
+    }
+  }
+}

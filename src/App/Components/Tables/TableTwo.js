@@ -1,4 +1,4 @@
-import { Table, Tag, Space } from "antd";
+import { Table, Tag } from "antd";
 import { Link } from "react-router-dom";
 
 const TableTwo = () => {
@@ -10,11 +10,7 @@ const TableTwo = () => {
       title: "Name",
       dataIndex: "name",
       key: "name",
-      render: (text) => (
-        <Link  onClick={clg(text)}>
-          {text}
-        </Link>
-      ),
+      render: (text) => <Link onClick={clg(text)}>{text}</Link>,
     },
     {
       title: "Age",
@@ -44,16 +40,6 @@ const TableTwo = () => {
             );
           })}
         </>
-      ),
-    },
-    {
-      title: "Action",
-      key: "action",
-      render: (text, record) => (
-        <Space size="middle">
-          <a>Invite {record.name}</a>
-          <a>Delete</a>
-        </Space>
       ),
     },
   ];
